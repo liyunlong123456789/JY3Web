@@ -1,0 +1,40 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#container
+{
+	width: 100%;
+	height: 46px;
+	position: absolute;
+	bottom: 0px;
+}
+.subdiv
+{
+	width: 25%;
+	height: 46px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.subdiv img
+{
+	width: 50%;
+	height: 50%;
+}
+.msg
+{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 50px;
+	bottom: 35px;
+}
+.msg span
+{
+	font-size: 1px;
+	color: white;
+}
