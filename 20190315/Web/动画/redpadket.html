@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>红包</title>
+		<style>
+			*
+			{
+				margin: 0px;
+				padding: 0px;
+			}
+			#container
+			{
+				width: 200px;
+				height: 250px;
+				background-color: red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			#containerone
+			{
+				width: 200px;
+				height: 120px;
+				background-color: #e57373;
+				border-radius: 0px 0px 45% 40%;
+				border-bottom: 10px solid #b71c1c;
+				position: relative;
+				top: -250px;
+				z-index: 1;
+			}
+			#containertwo
+			{
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background-color: yellow;
+				z-index: 2;
+				/*justify-content: center;
+				align-items: center;*/
+				color: #F57F17;
+				font-size: 50px;
+				text-align: center;
+				line-height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="containertwo">&yen;</div>
+		</div>
+		
+		<div id="containerone"></div>
+	</body>
+</html>

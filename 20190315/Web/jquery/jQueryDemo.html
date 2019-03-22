@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#div1
+			{
+				width: 65px;
+				height: 30px;
+				background-color: yellow;
+				/*border: 1px solid black;*/
+				display: none;
+				transition: all 3s;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<img src="../../img/微信/加号 (2).svg" id="img1"/>
+		<div id="div1"></div> 
+	</body>
+	<script type="text/javascript" src="../../js/jquery.js" ></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#img1").click(function(){
+				$("#div1").toggle();
+					console.log("saasdas");
+			})
+		})
+
+		
+	</script>
+</html>

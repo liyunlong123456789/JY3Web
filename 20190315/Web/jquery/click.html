@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="../../js/jquery.js">
+		</script>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				position: fixed;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#redDiv {
+				width: 100%;
+				height: 100%;
+				background-color: red;
+				/*opacity: 1;*/
+				transition: all 1s;
+			}
+			
+			#blueDiv {
+				width: 100%;
+				height: 100%;
+				background-color: blue;
+				position: absolute;
+				top: 0px;
+				z-index: -1;
+			}
+			
+			ul li {
+				text-indent: 20px;
+				font-size: 25px;
+			}
+			
+			a {
+				color: white;
+				text-decoration: none;
+			}
+			
+			.move {
+				transform: translate(100px);
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery.js"></script>
+	</head>
+
+	<body>
+		<div id="redDiv">
+			<button id="btn1">按钮</button>
+		</div>
+		<div id="blueDiv">
+			<ul>
+				<li>
+					<a href="https://jiadian.jd.com/">电器</a>
+					<li>
+						<li>
+							<a href="https://shouji.jd.com/">手机</a>
+						</li>
+						<li>
+							<a href="https://shuma.jd.com">数码</a>
+						</li>
+						<li>
+							<a href="https://diannao.jd.com/">电脑</a>
+						</li>
+						<li>
+							<a href="https://channel.jd.com/1315-1342.html">男装</a>
+						</li>
+						<li>
+							<a href="https://channel.jd.com/outdoor.html">户外</a>
+						</li>
+						<li>
+							<a href="https://channel.jd.com/food.html">食品</a>
+						</li>
+						<li>
+							<a href="https://book.jd.com/">图书</a>
+						</li>
+			</ul>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			$("#btn1").click(function() {
+				$("#redDiv").toggleClass("move")
+			})
+		})
+	</script>
+
+</html>
