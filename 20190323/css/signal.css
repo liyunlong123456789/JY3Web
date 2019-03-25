@@ -1,0 +1,76 @@
+/*信号栏布局*/
+#signal
+{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+/*信号栏的内容*/
+.one
+{
+	height: 100%;
+	/*width: 30px;*/
+	color: white;
+}
+/*分配面积*/
+#signalone
+{
+	flex: 0.4;
+	display: flex;
+	align-items: center;
+}
+#signaltwo
+{
+	flex: 0.2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+#signalthree
+{
+	flex: 0.4;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+}
+/*信号强弱制作*/
+#signalone ul li
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: 2px;
+}
+.havesignal
+{
+	background-color: white;
+}
+/*信号调整*/
+#signalone ul
+{
+	list-style: none;
+	display: flex;
+	margin-left: 5px;
+}
+/*字体设置*/
+#signalone span
+{
+	font-size: 14px;
+}
+/*wifi设置*/
+#signal img
+{
+	width: 17px;
+	height: 23px;
+}
+
+
+
+
+
+
+
+
