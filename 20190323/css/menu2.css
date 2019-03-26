@@ -1,4 +1,3 @@
-/*菜单栏布局*/
 #menu
 {
 	/*width: 100%;*/
@@ -10,14 +9,6 @@
 }
 
 /*图片的宽、高*/
-/*#news
-{
-	width: 25%;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}*/
 #news img
 {
 	width: 30px;
@@ -49,13 +40,4 @@
 	/*display: flex;
 	justify-content: center;
 	align-items: center;*/
-}
-a
-{
-	text-decoration: none;
-}
-
-span
-{
-	color: black;
 }
