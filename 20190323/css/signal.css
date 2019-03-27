@@ -28,12 +28,16 @@
 	justify-content: center;
 	align-content: center;
 }
-#signalthree
+#signalthree 
 {
 	flex: 0.4;
 	display: flex;
 	justify-content: flex-end;
 	align-content: center;
+}
+#signalthree span
+{
+	color: white;
 }
 /*信号强弱制作*/
 #signalone ul li
@@ -59,6 +63,7 @@
 #signalone span
 {
 	font-size: 14px;
+	color: white;
 }
 /*wifi设置*/
 #signal img

@@ -1,0 +1,25 @@
+#logo
+{
+	width: 100%;
+	height: 155px;
+	display: flex;
+}
+#title img
+{
+	width: 150px;
+	height: 90px;
+}
+#title h2
+{
+	position: absolute;
+	color: red;
+	left: 180px;
+	top: 30px;
+}
+#title h3
+{
+	position: absolute;
+	color: red;
+	left: 155px;
+	top: 100px;
+}

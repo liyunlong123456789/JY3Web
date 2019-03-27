@@ -1,0 +1,21 @@
+#okay
+{
+	width: 100%;
+	height: 100px;
+	
+}
+#zhuce
+{
+	height: 50px;
+}
+#okay #zhuce
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#zhuce button
+{
+	width: 50px;
+	height: 30px;
+}

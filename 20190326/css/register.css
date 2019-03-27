@@ -1,0 +1,17 @@
+#register
+{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+#mima
+{
+	height: 50px;
+}
+#mima input
+{
+	width: 200px;
+	height: 50px;
+}
