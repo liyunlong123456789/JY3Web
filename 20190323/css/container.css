@@ -1,8 +1,0 @@
-/*大盒子的高度*/
-#container
-{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-}
