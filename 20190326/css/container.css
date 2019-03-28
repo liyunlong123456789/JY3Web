@@ -16,10 +16,16 @@
 .container02
 {
 	flex: 1;
+	
 }
 /*图片大小*/
 .container02 img
 {
 	width: 100px;
 	height: 100px;
+}
+#jiage
+{
+	text-decoration: none;
+	color: black;
 }
